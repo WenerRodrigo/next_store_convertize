@@ -3,6 +3,7 @@ import * as S from './styles';
 import { ContentHeader } from "../contentHeader";
 import { RouteContent } from "../routeContent";
 import { Slides } from "../slides";
+import { MainContent } from "../main";
 
 
 export const Header = () => {
@@ -14,6 +15,7 @@ export const Header = () => {
             <ContentHeader />
             <RouteContent />
             <Slides />
+            <MainContent />
         </>
     )
 }
