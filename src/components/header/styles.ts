@@ -8,7 +8,7 @@ export const Content = styled.div`
     justify-content: center;
     width: 100%;
     height: 40px;
-    background-color: #0b7904;
+    background-color: #216633;
 `
 
 export const Description = styled.h3`
