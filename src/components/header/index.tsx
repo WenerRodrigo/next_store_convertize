@@ -4,17 +4,21 @@ import { ContentHeader } from "../contentHeader";
 import { RouteContent } from "../routeContent";
 import { Slides } from "../slides";
 import { MainContent } from "../main";
+import { Register } from "../register";
 
 
 export const Header = () => {
     return (
         <>
             <S.Content>
-                <S.Description><S.StyledIcon /><strong>Frete grátis</strong>em compras acima de<strong>R$ 199</strong></S.Description>
+                <S.Description>
+                    <S.StyledIcon /><strong>Frete grátis</strong>em compras acima de<strong>R$ 199</strong>
+                </S.Description>
             </S.Content>
             <ContentHeader />
             <RouteContent />
             <Slides />
+            <Register />
             <MainContent />
         </>
     )
