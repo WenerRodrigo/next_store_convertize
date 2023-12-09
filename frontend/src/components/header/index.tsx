@@ -5,6 +5,7 @@ import { RouteContent } from "../routeContent";
 import { Slides } from "../slides";
 import { MainContent } from "../main";
 import { Register } from "../register";
+import { Products } from "../products";
 
 
 export const Header = () => {
@@ -18,7 +19,6 @@ export const Header = () => {
             <ContentHeader />
             <RouteContent />
             <Slides />
-            <Register />
             <MainContent />
         </>
     )

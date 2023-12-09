@@ -9,6 +9,13 @@ export const Content = styled.div`
     background-color: #f4f4f4;
 `
 
+export const CaixaContent = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+`
+
 export const Container = styled.div`
     width: 100%;
     height: 200px;
