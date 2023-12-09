@@ -1,16 +1,23 @@
 import styled from "styled-components";
 
+export const BoxContent = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+`
 
 
 export const Content = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     height: auto;
     background-color: #000;
     margin-bottom: 20px;
 `
+
 
 export const ContainerImagem = styled.div`
     position: relative;
@@ -22,6 +29,7 @@ export const ContainerImagem = styled.div`
 `
 
 export const ImageOferta = styled.img`
+    width: 80%;
     height: 100%;
     opacity: 1.2;
 `

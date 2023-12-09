@@ -43,7 +43,7 @@ export const TitleStyle = styled.span`
 export const CardContent = styled.div`
     position: relative;
     border: 1px solid transparent;
-    width: 260px;
+    width: 250px;
     height: 400px;
     border-radius: 5px;
 

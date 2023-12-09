@@ -10,7 +10,7 @@ export const Register = () => {
     }
 
     return (
-        <>
+        <S.BoxContent>
             <S.ContainerImagem>
                 <S.ImageOferta src={oferta} alt="Imagem Oferta" />
                 <S.TextOferta>
@@ -38,6 +38,6 @@ export const Register = () => {
                     <S.Button onClick={handleClick}>Cadastrar</S.Button>
                 </S.ContainerInput>
             </S.Content>
-        </>
+        </S.BoxContent>
     )
 }

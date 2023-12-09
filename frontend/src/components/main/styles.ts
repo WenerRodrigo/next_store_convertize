@@ -13,7 +13,7 @@ export const CaixaContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 80%;
+    width: 80%;
 `
 
 export const Container = styled.div`

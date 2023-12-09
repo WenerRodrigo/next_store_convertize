@@ -1,11 +1,21 @@
 import styled from 'styled-components';
 
+export const BoxRodape = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+   
+`
+
 export const ContentRodape = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    width: 80%;
 `
+
 
 export const SubTitleFooter = styled.div`
     display: flex;
@@ -22,12 +32,18 @@ export const TitleCard = styled.h3`
 `
 
 export const CnpjFooter = styled.p`
-    margin-top: 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
     font-size: 16px;
     font-weight: 600;
 `
 
 export const DescriptionText = styled.p`
+    width: 100%;
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 600;
     padding: 0 10px;
