@@ -42,10 +42,15 @@ export const TitleStyle = styled.span`
 
 export const CardContent = styled.div`
     position: relative;
-    border: 1px solid #ccc;
-    width: 250px;
+    border: 1px solid transparent;
+    width: 260px;
     height: 400px;
     border-radius: 5px;
+
+    &:hover {
+        border: 1px solid #ccc;
+        box-shadow: 0 0 4px #ccc;
+    }
 `
 
 export const ImagemCard = styled.img`
@@ -87,7 +92,8 @@ export const CurrentPrice = styled.p`
 `
 
 export const Installments = styled.span`
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     color: #000;
     margin-top: auto;
@@ -100,7 +106,7 @@ export const Price = styled.p`
 `
 
 export const Button = styled.button`
-    width: 80%;
+    width: 100%;
     height: 40px;
     background-color: #0b7904;
     color: #fff;
