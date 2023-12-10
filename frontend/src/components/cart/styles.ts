@@ -5,7 +5,9 @@ export const ContentCart = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px
+    padding: 15px;
+
+   
 `;
 
 
@@ -17,6 +19,10 @@ export const Icon = styled.button`
     background-color: transparent;
     border: none;
     cursor: pointer;
+
+    @media (max-width: 320px) {
+        width: 30px;
+    }
 `;
 
 export const ItensCart = styled.span`
@@ -31,4 +37,10 @@ export const ItensCart = styled.span`
     top: 0;
     right: 0;
     font-size: 14px;
+
+    @media (max-width: 320px) {
+        width: 20px;
+        font-size: 10px;
+        right: 9px;
+    }
 `;

@@ -8,6 +8,19 @@ export const Content = styled.div`
     width: 100%;
     padding: 10px; 
     border-bottom: 1px solid #ccc;
+
+    @media (max-width: 320px) {
+        /* flex-direction: column; */
+        width: 100%;
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    @media (max-width: 375px) {
+        width: 150vh;
+        padding: 12px;
+        font-size: 14px;
+    }
 `;
 
 export const InputContent = styled.div`
@@ -26,6 +39,16 @@ export const Input = styled.input`
 
     &:focus {
       outline: none;
+    }
+
+    @media (max-width: 320px) {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    @media (max-width: 375px) {
+        width: 60%;
+        font-size: 12px;
     }
 `;
 
@@ -46,10 +69,28 @@ export const Title = styled.h1`
     font-weight: bold;
     letter-spacing: 3px;
     width: 40%;
+
+    @media (max-width: 320px) {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    @media (max-width: 375px) {
+        padding: 12px;
+        font-size: 20px;
+    }
 `;
 
 export const Imagem = styled.img`
     width: 50px;
+
+    @media (max-width: 320px) {
+       width: 40px;
+    }
+
+    @media (max-width: 375px) {
+        width: 50px;
+    }
 `
 
 
@@ -60,6 +101,16 @@ export const Login = styled.span`
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+
+    @media (max-width: 320px) {
+        padding: 12px;
+        font-size: 10px;
+    }
+
+    @media (max-width: 375px) {
+        padding: 12px;
+        font-size: 14px;
+    }
     `;
 
 

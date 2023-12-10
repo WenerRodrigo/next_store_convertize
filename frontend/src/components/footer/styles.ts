@@ -6,7 +6,6 @@ export const BoxRodape = styled.div`
     justify-content: center;
     flex-direction: column;
     width: 100%;
-   
 `
 
 export const ContentRodape = styled.div`
@@ -14,6 +13,10 @@ export const ContentRodape = styled.div`
     align-items: center;
     justify-content: center;
     width: 80%;
+
+    @media (max-width: 320px) {
+        flex-direction: column;
+    }
 `
 
 
@@ -22,6 +25,10 @@ export const SubTitleFooter = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
+    /* @media (max-width: 320px) {
+        height: 80px;
+    } */
 `
 
 export const TitleCard = styled.h3`
@@ -29,6 +36,10 @@ export const TitleCard = styled.h3`
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     padding: 0 10px;
+
+    @media (max-width: 320px) {
+        font-size: 16px;
+    }
 `
 
 export const CnpjFooter = styled.p`
@@ -38,6 +49,11 @@ export const CnpjFooter = styled.p`
     margin-top: auto;
     font-size: 16px;
     font-weight: 600;
+
+    @media (max-width: 320px) {
+        font-size: 13px;
+        padding: 10px;
+    }
 `
 
 export const DescriptionText = styled.p`
@@ -47,6 +63,11 @@ export const DescriptionText = styled.p`
     font-size: 16px;
     font-weight: 600;
     padding: 0 10px;
+
+    @media (max-width: 320px) {
+        font-size: 13px;
+        padding: 10px;
+    }
 `
 
 
@@ -57,6 +78,11 @@ export const ContainerImage = styled.div`
     flex-direction: column;
     text-align: center;
     padding: 10px;
+
+    @media (max-width: 320px) {
+        width: 40%;
+        flex-direction: column;
+    }
 `
 
 export const ContainerCertificado = styled.div`
@@ -72,11 +98,21 @@ export const ContainerCertificado = styled.div`
 export const ImagePagamento = styled.img`
     width: 400px;
     height: 150px;
+
+    @media (max-width: 320px) {
+        width: 330px;
+        height: 170px;
+    }
 `
 
 export const ImageCertifacado = styled.img`
     width: 400px;
     height: 150px;
+
+    @media (max-width: 320px) {
+        width: 300px;
+        height: 140px;
+    }
 `
 
 export const ContentFooter = styled.div`

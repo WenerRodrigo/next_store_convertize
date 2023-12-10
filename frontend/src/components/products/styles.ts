@@ -32,12 +32,20 @@ export const TitleProducts = styled.h1`
     align-items: center;
     width: 90%;
     gap: 15px;
+
+    @media (max-width: 320px) {
+        font-size: 14px;
+    }
 `
 
 export const TitleStyle = styled.span`
     border: 1px solid #eee;
     width: 62%;
     margin-top: auto;
+
+    @media (max-width: 320px) {
+        width: 100px;
+    }
 `
 
 export const CardContent = styled.div`

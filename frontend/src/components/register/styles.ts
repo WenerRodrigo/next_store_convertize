@@ -5,6 +5,10 @@ export const BoxContent = styled.div`
     align-items: center;
     flex-direction: column;
     width: 100%;
+
+    @media (max-width: 320px) {
+        width: 100%;
+    }
 `
 
 
@@ -47,6 +51,10 @@ export const Text = styled.p`
     font-weight: bold;
     color: #Bd8411;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+    @media (max-width: 320px) {
+        font-size: 13px;
+    }
 `
 
 export const TextOn = styled.p`
@@ -55,6 +63,10 @@ export const TextOn = styled.p`
     font-family: 'Lato', sans-serif;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+    @media (max-width: 320px) {
+        font-size: 18px;
+    }
 `
 
 export const TextOff = styled.p`
@@ -63,6 +75,10 @@ export const TextOff = styled.p`
     font-family: 'Lato', sans-serif;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+    @media (max-width: 320px) {
+        font-size: 25px;
+    }
 `
 
 export const ButtonOferta = styled.button`
@@ -83,6 +99,11 @@ export const ButtonOferta = styled.button`
     &:hover {
       background-color: #D48341;
     }
+
+    @media (max-width: 320px) {
+        font-size: 12px;
+        height: 22px;
+    }
 `
 
 export const Container = styled.div`
@@ -94,6 +115,10 @@ export const TitleOferta = styled.h2`
     font-weight: 700;
     color: #fff;
     text-align: center;
+
+    @media (max-width: 320px) {
+        font-size: 13px;
+    }
 `
 
 export const Strong = styled.strong`
@@ -104,12 +129,21 @@ export const SubTitleOferta = styled.p`
     font-size: 17px;
     font-weight: 600;
     color: #fff;
+
+    @media (max-width: 320px) {
+        font-size: 13px;
+    }
 `
 
 export const ContainerInput = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 320px) {
+        flex-direction: column;
+        width: 90%;
+    }
 `
 
 
@@ -127,6 +161,10 @@ export const Input = styled.input`
 
     &:focus {
       outline: none;
+    }
+
+    @media (max-width: 320px) {
+        width: 60%;
     }
 `
 
@@ -147,5 +185,12 @@ export const Button = styled.button`
 
     &:hover {
       background-color: #ddd;
+    }
+
+    @media (max-width: 320px) {
+        width: 50%;
+        font-size: 12px;
+        height: 24px;
+        margin-bottom: 5px;;
     }
 `

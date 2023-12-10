@@ -1,12 +1,27 @@
 import styled from "styled-components";
 
+export const BoxContent = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f4f4f4;
+
+    @media (max-width: 320px) {
+        width: 100%;
+    }
+`
+
 
 export const Content = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    background-color: #f4f4f4;
+    width: 80%;
+
+    @media (max-width: 320px) {
+        flex-direction: column;
+    }
 `
 
 export const CaixaContent = styled.div`
@@ -53,4 +68,9 @@ export const ContentDescription = styled.ul`
 export const RedeSocial = styled.img`
     margin: 3px;
     cursor: pointer;
+
+    @media (max-width: 320px) {
+        width: 40px;
+        height: 40px;
+    }
 `

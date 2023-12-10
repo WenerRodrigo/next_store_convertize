@@ -5,6 +5,16 @@ export const ContentSlider = styled.div`
     width: 100%;
     height: 400px;
     overflow: hidden;
+
+    @media (max-width: 320px) {
+        width: 100%;
+        height: 200px;
+    }
+
+    @media (max-width: 375px) {
+        width: 100%;
+        height: 220px;
+    }
 `;
 
 export const ContentSlides = styled.div`
@@ -21,6 +31,7 @@ export const Input = styled.input`
 export const ContentImg = styled.div`
     flex: 0 0 33.33%;
     height: 100%;
+
 `;
 
 export const Imagem = styled.img`
@@ -41,12 +52,26 @@ export const TextOverlay = styled.div`
     font-weight: 400;
     text-align: center;
     z-index: 2;
+
+    @media (max-width: 320px) {
+       font-size: 30px;
+    }
+
+    @media (max-width: 375px) {
+        width: 100%;
+        font-size: 45px;
+        margin: 10px;
+    }
 `;
 
 export const PoloTextOverlay = styled(TextOverlay)`
     top: 50%;
     font-size: 30px;
     font-family: 'Bebas Neue', sans-serif;
+
+    @media (max-width: 320px) {
+       font-size: 16px;
+    }
 `;
 
 export const DiscountTextOverlay = styled(TextOverlay)`

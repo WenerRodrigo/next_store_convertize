@@ -8,6 +8,14 @@ export const Content = styled.div`
     justify-content: space-evenly;
     width: 100%;
     margin-top: 10px;
+
+    @media (max-width: 320px) {
+        width: 100%;
+    }
+
+    @media (max-width: 375px) {
+        width: 150vh;
+    }
 `
 
 export const NavLink = styled(Link)`
@@ -18,6 +26,14 @@ export const NavLink = styled(Link)`
 
     &:hover {
         color: red;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 12px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 14px;
     }
 
 `
