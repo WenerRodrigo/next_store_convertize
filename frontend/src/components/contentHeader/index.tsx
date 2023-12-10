@@ -1,6 +1,6 @@
 import React from 'react';
-import { BsHandbag } from "react-icons/bs";
 import * as S from './styles';
+import { Cart } from '../cart';
 
 const logo = require('../../assets/mascara-africana.png');
 
@@ -18,10 +18,8 @@ export const ContentHeader = () => {
 
             <S.Title>NEXT <S.Imagem src={logo} alt='Imagem Logo' /> STORE</S.Title>
 
-            <S.Login>Minha conta</S.Login>
-
-            {/* talvez envolver com uma div para ter os numeros aqui */}
-            <S.Icon><BsHandbag />0</S.Icon>
+            <S.Login>Minha conta</S.Login>   
+            <Cart />
         </S.Content>
     )
 }

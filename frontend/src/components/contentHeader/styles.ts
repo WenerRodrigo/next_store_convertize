@@ -63,9 +63,3 @@ export const Login = styled.span`
     `;
 
 
-export const Icon = styled.span`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 19px;
-`
