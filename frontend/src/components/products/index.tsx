@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { api } from "../../services/api";
 import * as S from "./styles";
 import { Stars } from "../stars";
-
 const conjunto = require('../../assets/conjunto_2.jpg');
 const social = require('../../assets/conjunto_3.avif');
 
@@ -23,6 +22,7 @@ export const Products = () => {
   const [buttonVisibilityTop, setButtonVisibilityTop] = useState<{ [key: number]: boolean }>({});
   const [buttonVisibilityBottom, setButtonVisibilityBottom] = useState<{ [key: number]: boolean }>({});
   const [selectedCard, setSelectedCard] = useState<number | null>(null);
+
 
   const maxCardsToShow = 4;
 
@@ -52,6 +52,7 @@ export const Products = () => {
       )
     );
   }
+
 
   const calculateInstallment = (totalAmount: number, installmentCount: number) => {
     const installmentValue = totalAmount / installmentCount;
@@ -92,8 +93,10 @@ export const Products = () => {
     }));
   };
 
+
+
   if (isLoading) {
-    return <p>Carregando...</p>
+    return <S.Loanding>Carregando...</S.Loanding>
   }
 
   return (

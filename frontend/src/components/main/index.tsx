@@ -41,7 +41,7 @@ export const MainContent = () => {
                     <S.Title>Ajuda</S.Title>
                     <S.ContentDescription>
                         <S.Description>Política de Entrega</S.Description>
-                        <S.Description>Trocas e devoluçôes</S.Description>
+                        <S.Description>Trocas e devoluções</S.Description>
                         <S.Description>Central de Atendimento</S.Description>
                     </S.ContentDescription>
                 </S.Container>

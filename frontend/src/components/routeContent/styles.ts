@@ -20,9 +20,6 @@ export const NavLink = styled(Link)`
         color: red;
     }
 
-    &: active {
-        color: red;
-    }
 `
 
 

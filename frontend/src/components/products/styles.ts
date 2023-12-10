@@ -123,3 +123,15 @@ export const Button = styled.button`
     }
 `
 
+
+export const Loanding = styled.p`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+`
+
