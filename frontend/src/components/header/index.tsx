@@ -4,8 +4,6 @@ import { ContentHeader } from "../contentHeader";
 import { RouteContent } from "../routeContent";
 import { Slides } from "../slides";
 import { MainContent } from "../main";
-import { Register } from "../register";
-import { Products } from "../products";
 
 
 export const Header = () => {

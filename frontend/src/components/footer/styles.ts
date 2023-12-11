@@ -33,10 +33,6 @@ export const SubTitleFooter = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
-    /* @media (max-width: 320px) {
-        height: 80px;
-    } */
 `
 
 export const TitleCard = styled.h3`

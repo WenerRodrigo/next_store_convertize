@@ -4,7 +4,6 @@ import * as S from './styles';
 const imagem = require('../../assets/tecido_1.jpg');
 const imagem1 = require('../../assets/tecido_2.jpg');
 const imagem2 = require('../../assets/tecido_3.avif');
-// const logoImage = require('../../assets/mascara-africana.png');
 
 export const Slides = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
