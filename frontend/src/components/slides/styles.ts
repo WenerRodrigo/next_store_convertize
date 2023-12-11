@@ -8,12 +8,17 @@ export const ContentSlider = styled.div`
 
     @media (max-width: 320px) {
         width: 100%;
-        height: 200px;
+        height: 150px;
     }
 
     @media (max-width: 375px) {
         width: 100%;
-        height: 220px;
+        height: 170px;
+    }
+
+    @media (max-width: 425px) {
+        width: 100%;
+        height: 190px;
     }
 `;
 
@@ -31,7 +36,6 @@ export const Input = styled.input`
 export const ContentImg = styled.div`
     flex: 0 0 33.33%;
     height: 100%;
-
 `;
 
 export const Imagem = styled.img`
@@ -54,13 +58,21 @@ export const TextOverlay = styled.div`
     z-index: 2;
 
     @media (max-width: 320px) {
-       font-size: 30px;
+       font-size: 20px;
+       margin-top: 40px;
+       text-align: center;
     }
 
     @media (max-width: 375px) {
-        width: 100%;
-        font-size: 45px;
-        margin: 10px;
+        font-size: 24px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 24px;
+        margin-top: 60px;
+        text-align: center;
     }
 `;
 
@@ -70,7 +82,15 @@ export const PoloTextOverlay = styled(TextOverlay)`
     font-family: 'Bebas Neue', sans-serif;
 
     @media (max-width: 320px) {
-       font-size: 16px;
+       font-size: 13px;
+    }
+
+    @media (max-width: 375px) {
+       font-size: 18px;
+    }
+
+    @media (max-width: 425px) {
+       font-size: 18px;
     }
 `;
 

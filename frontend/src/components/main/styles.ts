@@ -10,6 +10,14 @@ export const BoxContent = styled.div`
     @media (max-width: 320px) {
         width: 100%;
     }
+
+    @media (max-width: 375px) {
+        width: 100%;
+    }
+
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 `
 
 
@@ -21,6 +29,16 @@ export const Content = styled.div`
 
     @media (max-width: 320px) {
         flex-direction: column;
+    }
+
+    @media (max-width: 375px) {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    @media (max-width: 425px) {
+        flex-direction: column;
+        padding: 10px;
     }
 `
 
@@ -70,6 +88,16 @@ export const RedeSocial = styled.img`
     cursor: pointer;
 
     @media (max-width: 320px) {
+        width: 40px;
+        height: 40px;
+    }
+
+    @media (max-width: 375px) {
+        width: 40px;
+        height: 40px;
+    }
+
+    @media (max-width: 425px) {
         width: 40px;
         height: 40px;
     }

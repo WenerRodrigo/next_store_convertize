@@ -11,12 +11,16 @@ export const Content = styled.div`
     background-color: #216633;
 
     @media (max-width: 320px) {
-        height: 30px;
+        height: 35px;
+        width: 100%;
     }
 
     @media (max-width: 375px) {
         height: 40px;
-        width: 100%;
+    }
+
+    @media (max-width: 425px) {
+        height: 35px;
     }
 `
 
@@ -34,7 +38,13 @@ export const Description = styled.h3`
     }
 
     @media (max-width: 375px) {
-        font-size: 18px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 12px;
+        width: 100%;
     }
 `
 

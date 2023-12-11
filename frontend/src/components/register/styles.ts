@@ -9,6 +9,14 @@ export const BoxContent = styled.div`
     @media (max-width: 320px) {
         width: 100%;
     }
+
+    @media (max-width: 375px) {
+        width: 100%;
+    }
+
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 `
 
 
@@ -53,6 +61,14 @@ export const Text = styled.p`
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
     @media (max-width: 320px) {
+        font-size: 10px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 10px;
+    }
+
+    @media (max-width: 425px) {
         font-size: 13px;
     }
 `
@@ -65,6 +81,14 @@ export const TextOn = styled.p`
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
     @media (max-width: 320px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 425px) {
         font-size: 18px;
     }
 `
@@ -77,6 +101,14 @@ export const TextOff = styled.p`
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
     @media (max-width: 320px) {
+        font-size: 25px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 425px) {
         font-size: 25px;
     }
 `
@@ -102,7 +134,20 @@ export const ButtonOferta = styled.button`
 
     @media (max-width: 320px) {
         font-size: 12px;
+        width: 100%;
         height: 22px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 12px;
+        width: 100%;
+        height: 22px;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 12px;
+        width: 100%;
+        height: 25px;
     }
 `
 
@@ -117,7 +162,15 @@ export const TitleOferta = styled.h2`
     text-align: center;
 
     @media (max-width: 320px) {
+        font-size: 12px;
+    }
+
+    @media (max-width: 375px) {
         font-size: 13px;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 15px;
     }
 `
 
@@ -131,7 +184,15 @@ export const SubTitleOferta = styled.p`
     color: #fff;
 
     @media (max-width: 320px) {
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 12px;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 15px;
     }
 `
 
@@ -142,7 +203,17 @@ export const ContainerInput = styled.div`
 
     @media (max-width: 320px) {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+    }
+
+    @media (max-width: 375px) {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    @media (max-width: 425px) {
+        flex-direction: column;
+        width: 100%;
     }
 `
 
@@ -164,7 +235,18 @@ export const Input = styled.input`
     }
 
     @media (max-width: 320px) {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    @media (max-width: 375px) {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    @media (max-width: 425px) {
         width: 60%;
+        font-size: 12px;
     }
 `
 
@@ -189,6 +271,20 @@ export const Button = styled.button`
 
     @media (max-width: 320px) {
         width: 50%;
+        font-size: 10px;
+        height: 24px;
+        margin-bottom: 5px;
+    }
+
+    @media (max-width: 375px) {
+        width: 50%;
+        font-size: 10px;
+        height: 24px;
+        margin-bottom: 5px;;
+    }
+
+    @media (max-width: 425px) {
+        width: 60%;
         font-size: 12px;
         height: 24px;
         margin-bottom: 5px;;

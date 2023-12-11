@@ -14,7 +14,15 @@ export const Content = styled.div`
     }
 
     @media (max-width: 375px) {
-        width: 150vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    @media (max-width: 425px) {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
     }
 `
 
@@ -29,11 +37,15 @@ export const NavLink = styled(Link)`
     }
 
     @media (max-width: 320px) {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     @media (max-width: 375px) {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 12px;
     }
 
 `

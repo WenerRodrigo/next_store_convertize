@@ -7,7 +7,17 @@ export const ContentCart = styled.div`
     justify-content: center;
     padding: 15px;
 
-   
+   @media (max-width: 320px) {
+        height: 10px;
+    }
+
+    @media (max-width: 375px) {
+        height: 10px;
+    }
+
+    @media (max-width: 425px) {
+        height: 10px;
+    }
 `;
 
 
@@ -21,7 +31,15 @@ export const Icon = styled.button`
     cursor: pointer;
 
     @media (max-width: 320px) {
-        width: 30px;
+        width: 25px;
+    }
+
+    @media (max-width: 375px) {
+        width: 25px;
+    }
+
+    @media (max-width: 425px) {
+        width: 27px;
     }
 `;
 
@@ -39,8 +57,23 @@ export const ItensCart = styled.span`
     font-size: 14px;
 
     @media (max-width: 320px) {
-        width: 20px;
-        font-size: 10px;
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+        right: 9px;
+    }
+
+    @media (max-width: 375px) {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
+        right: 9px;
+    }
+
+    @media (max-width: 425px) {
+        width: 12px;
+        height: 12px;
+        font-size: 8px;
         right: 9px;
     }
 `;
